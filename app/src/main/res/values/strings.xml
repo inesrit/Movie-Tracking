@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Movie Tracking</string>
+    <string name="title">Title</string>
+    <string name="name">Name</string>
+    <string name="rating">10</string>
+    <string name="_5_0">5.0</string>
+    <string name="my_list">My List</string>
+    <string name="add_new">Add New</string>
+    <string name="todo">TODO</string>
+    <string name="watch_this_movie">Watch This Movie?</string>
+    <string name="save">Save</string>
+    <string name="comments">Comments</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="search_movie_here">Search Your movie here</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update Data</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="don_t_have_account">Don\'t Have Account?</string>
+</resources>

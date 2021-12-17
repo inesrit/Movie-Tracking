@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "968009523783",
+    "project_id": "movie-rating-11f8f",
+    "storage_bucket": "movie-rating-11f8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968009523783:android:8a0a036d972cb02a564762",
+        "android_client_info": {
+          "package_name": "com.example.movietracking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968009523783-29ctciv8m3n0nok04641v223lh3986aa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.movietracking",
+            "certificate_hash": "e8a5b9b16e3e5587b277bea2c5d5b01fdfda7c71"
+          }
+        },
+        {
+          "client_id": "968009523783-ve6ip93vo4qjj9ba2et89fks0k7mpce6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVYdAcOWE3eyU2uIc0LwZBMsTCpJijKvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968009523783-ve6ip93vo4qjj9ba2et89fks0k7mpce6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

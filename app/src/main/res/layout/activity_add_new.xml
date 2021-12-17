@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNew">
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="@drawable/toolbar_bg"
+      tools:ignore="MissingConstraints"
+      app:navigationIcon="?attr/homeAsUpIndicator"
+      android:theme="@style/MyThemeOverlay_Toolbar2"
+      >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Movie"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:id="@+id/toolbar_title" />
+  </androidx.appcompat.widget.Toolbar>
+
+  <androidx.appcompat.widget.SearchView
+      android:id="@+id/searchView"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toTopOf="@+id/recycleview_movie"
+      app:layout_constraintTop_toBottomOf="@+id/toolbar"
+      tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycleview_movie"/>
+  <com.google.android.material.textview.MaterialTextView
+      android:id="@+id/tv_search_movie"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/search_movie_here"
+      android:textSize="18sp"
+      android:layout_gravity="center"
+      tools:ignore="MissingConstraints"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
